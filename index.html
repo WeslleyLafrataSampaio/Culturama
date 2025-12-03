@@ -93,6 +93,7 @@
         <input id="city" type="text" name="userCity" minlength="3" placeholder="Ex: Piracicaba" required><br><br>
 
     </fieldset>
+
     <fieldset>
 
         <legend>Hábitos</legend><br>
@@ -115,7 +116,20 @@
         name="userSocialMedia" value="linkedin">
         <label for="linkedin">LinkedIn</label><br><br>
 
+        <label for="musicStyle">Estilo Musical:</label><br>
+        <input id="musicStyle" type="text" name="userMusicStyle" list="musicStyleList">
+        <datalist id="musicStyleList">
+            <option value="Pop">
+            <option value="Rock">
+            <option value="Sertanejo">
+            <option value="MPB">
+            <option value="Funk">
+            <option value="Samba">
+            <option value="Rap">
+            <option value="Eletrônica">
+
     </fieldset>
+
 
     <button type="submit">Enviar Pesquisa</button>
 </form>
