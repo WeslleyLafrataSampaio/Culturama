@@ -1,1 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
